@@ -1,0 +1,299 @@
+*{
+  font-family: verdana;
+  background-color: floralwhite;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+p{
+  padding: 1%;
+  line-height: 1.6;
+}
+
+main img{
+  margin-top: 6.5%;
+  width: 96%;
+  margin-left: 2%;
+  border-radius: 5% 5% 5% 5%;
+}
+
+h1{
+  margin-left: 1%;
+  font-size: 3vw;
+  text-align: center;
+}
+
+/* NAVIGASJON */
+
+nav{
+  background-color: rgb(251, 194, 11);
+  display: block;
+}
+
+.navbar{
+  width: 100%;
+  background-color: rgb(251, 194, 11);
+  border-bottom: solid 4px orange;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul{
+  margin-top: -2.5%;
+  background-color: rgb(251, 194, 11);
+  margin-left:20%;
+}
+
+.navbar li{
+  background-color: orange;
+  display: inline;
+  margin-left: 3%;
+  font-size: 2.5vw;
+  font-weight: bold;
+  background-color: rgb(251, 194, 11);
+}
+
+.navbar a{
+  text-align: center;
+  background-color: rgb(251, 194, 11);
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover{
+  border-bottom: solid 4px white;
+  border-radius: 15%;
+  color: ghostwhite;
+  transition: 0.3s;
+}
+
+.navbar img{
+  display: grid;
+  width: 15%;
+}
+
+/* SIDE 1 */
+
+.TheProblem p{
+  font-size: 2.5vw;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  }
+
+.TheProblem img{
+  display: flex;
+}
+/* SIDE 2 */
+
+.side2{
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.side2, .beebilde{
+  background-color: lemonchiffon;
+}
+
+.Solution{
+  background-color: lemonchiffon;
+}
+
+.Solution p{
+  font-size: 2.5vw;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  background-color: lemonchiffon;
+  }
+
+.Solution h1{
+  background-color: lemonchiffon;
+}
+
+
+.beebilde img{
+  display: flex;
+  background-color: lemonchiffon;
+  }
+
+/* SIDE 3 */
+
+.About{
+  margin-top: 10%;
+}
+
+.About p{
+  font-size: 2.5vw;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.About a{
+  text-decoration: none;
+  color: black;
+}
+
+.About a:hover{
+  color: silver;
+  transition: 0.3s;
+}
+
+.About a{
+  width: 35%;
+  display: inline-grid;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact h1{
+  background-color: silver;
+}
+
+#Adrian{
+  display: inline-grid;
+  margin-top: 0;
+}
+
+#Rasmus{
+  margin-top: 0;
+  float: right;
+}
+
+
+.Social {
+  padding-top: 3%;
+  background-color: silver;
+  margin-left: 7.5%;
+}
+
+.Social a{
+  margin: 3%;
+  background-color: silver;
+}
+
+.Social img{
+  width: 10%;
+  background-color: silver
+}
+
+/* FOOTER */
+
+footer{
+    background-color: silver;
+}
+
+.contact{
+  text-align: center;
+  background-color: silver;
+}
+
+.contact p{
+  background-color: silver;
+  font-size: 2vw;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (min-width: 800px){
+
+h1{
+  font-size: 2vw;
+}
+
+.navbar li{
+  font-size: 1.75vw;
+}
+
+.navbar img{
+    width: 7.5%;
+}
+
+/* SIDE 1 */
+
+.TheProblem{
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+}
+
+.txt-TheProblem{
+  width: 49%;
+  display: inline-grid;
+}
+
+.txt-TheProblem p{
+  font-size: 1.5vw;
+  margin-left: 14%;
+}
+
+.TheProblem img{
+  width: 35%;
+  display: grid;
+  float: right;
+  margin-right: 10%;
+}
+
+/* SIDE 2 */
+
+.side2{
+  height: 100%;
+}
+
+.Solution p{
+  font-size: 1.5vw;
+}
+
+.Solution{
+  padding-bottom: 4%;
+  padding-top: 4%;
+  display: grid;
+  margin-left: 49%;
+  margin-right: 10%;
+
+}
+
+.beebilde{
+  padding-top: 3%;
+  margin-left: 5%;
+  margin-right: 2%;
+  float: left;
+  width: 35%;
+}
+
+/* SIDE 3 */
+
+.About p{
+  margin-right: 15%;
+  margin-left: 15%;
+  font-size: 1.5vw;
+}
+
+.About a{
+  width: 20%;
+  display: inline-grid;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#Rasmus{
+  margin-right: 20%;
+}
+
+#Adrian{
+  margin-left: 20%;
+}
+
+.Social img{
+  width: 5%;
+}
+
+#Info {
+  font-size: 1vw;
+}
