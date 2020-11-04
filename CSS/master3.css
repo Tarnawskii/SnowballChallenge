@@ -40,7 +40,7 @@ nav{
 }
 
 .navbar ul{
-  margin-top: -3.5%;
+  margin-top: -6.5%;
   background-color: rgb(251, 194, 11);
   margin-left:20%;
 }
@@ -49,7 +49,7 @@ nav{
   background-color: orange;
   display: inline;
   margin-left: 3%;
-  font-size: 2.5vw;
+  font-size: 0vw;
   font-weight: bold;
   background-color: rgb(251, 194, 11);
 }
@@ -69,14 +69,15 @@ nav{
 }
 
 .navbar img{
-  display: grid;
-  width: 15%;
+  text-align: center;
+  display: flex;
+  width: 9%;
 }
 
 /* SIDE 1 */
 
 .TheProblem p{
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   margin-left: 2%;
   margin-right: 2%;
   display: flex;
@@ -101,7 +102,7 @@ nav{
 }
 
 .Solution p{
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   margin-left: 2%;
   margin-right: 2%;
   display: flex;
@@ -125,7 +126,7 @@ nav{
 }
 
 .About p{
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -193,7 +194,7 @@ footer{
 
 .contact p{
   background-color: silver;
-  font-size: 2vw;
+  font-size: 2.2vw;
 }
 
 /* RESPONSIVENESS */
@@ -203,11 +204,6 @@ footer{
 h1{
   font-size: 2vw;
 }
-  
-.navbar{
-    position: sticky;
-    top: 0;
- }
 
 .navbar li{
   font-size: 1.75vw;
@@ -215,6 +211,47 @@ h1{
 
 .navbar img{
     width: 7.5%;
+}
+
+nav{
+  background-color: rgb(251, 194, 11);
+  display: block;
+}
+
+.navbar{
+  width: 100%;
+  background-color: rgb(251, 194, 11);
+  border-bottom: solid 4px orange;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul{
+  margin-top: -2.8%;
+  background-color: rgb(251, 194, 11);
+  margin-left:20%;
+}
+
+.navbar li{
+  background-color: orange;
+  display: inline;
+  margin-left: 3%;
+  font-weight: bold;
+  background-color: rgb(251, 194, 11);
+}
+
+.navbar a{
+  text-align: center;
+  background-color: rgb(251, 194, 11);
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover{
+  border-bottom: solid 4px white;
+  border-radius: 15%;
+  color: ghostwhite;
+  transition: 0.3s;
 }
 
 /* SIDE 1 */
