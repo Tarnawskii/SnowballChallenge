@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
   font-family: verdana;
   background-color: floralwhite;
@@ -99,6 +102,7 @@ nav{
 
 .Solution{
   background-color: lemonchiffon;
+  scroll-margin-top: 250px;
 }
 
 .Solution p{
@@ -123,6 +127,7 @@ nav{
 
 .About{
   margin-top: 10%;
+  scroll-margin-top: 250px;
 }
 
 .About p{
